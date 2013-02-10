@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
+gem "nokogiri"
+gem "rack", "~>1.1"
+gem "rspec", :require => "spec"
 
-gem 'rails', '3.2.1'
+gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'sqlite3', '~> 1.3.7'
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
